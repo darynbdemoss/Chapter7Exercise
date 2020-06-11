@@ -8,7 +8,8 @@ namespace Technology
         {
             Computer test = new Computer(false, false, 16, "Dell");
 
-            Console.WriteLine($"new computer {test}");
+            test.PowerOn();
+            //Console.WriteLine($"new computer {}");
         }
     }
 }
