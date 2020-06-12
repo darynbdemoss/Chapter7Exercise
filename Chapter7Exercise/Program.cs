@@ -6,9 +6,9 @@ namespace Technology
     {
         static void Main(string[] args)
         {
-            Computer test = new Computer(false, false, 16, "Dell");
+            Computer test = new Computer(true, false, 16, "Dell");
 
-            test.PowerOn();
+            test.Sleep();
             //Console.WriteLine($"new computer {}");
         }
     }
